@@ -1,9 +1,11 @@
-# render.yaml for Code-Sync backend deployment
+# render.yaml for Code Mesh backend deployment
+# Deploy backend on Render for persistent WebSocket support
 services:
   - type: web
-    name: code-sync-backend
+    name: code-mesh-server
     env: node
     plan: free
+    region: oregon  # Change to your preferred region
     buildCommand: cd server && npm install && npm run build
     startCommand: cd server && npm start
     envVars:
@@ -11,4 +13,5 @@ services:
         value: production
       - key: PORT
         value: 10000
-    healthCheckPath: /health
+      # Add CORS_ORIGIN manually in Render dashboard after deployment
+      # CORS_ORIGIN should be your Vercel frontend URL

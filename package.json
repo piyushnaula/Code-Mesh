@@ -1,0 +1,18 @@
+{
+  "name": "code-mesh",
+  "version": "1.0.0",
+  "description": "A modern collaborative coding and chat platform that enables real-time code sharing, execution, and communication between users — designed for developers to collaborate efficiently across web sessions.",
+  "author": "Dinesh Dumka <dineshdumka27@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DineshDumka/CodeMesh.git"
+  },
+  "homepage": "https://github.com/DineshDumka/CodeMesh#readme",
+  "bugs": {
+    "url": "https://github.com/DineshDumka/CodeMesh/issues"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
+  }
+}

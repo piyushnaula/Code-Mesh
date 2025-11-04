@@ -46,7 +46,7 @@ A modern collaborative coding and chat platform that enables real-time code shar
 1. **Fork this repository:** Click the Fork button located in the top-right corner of this page.
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/DineshDumka/CodeMesh.git
+   git clone https://github.com/piyushnaula/Code-Mesh.git
    ```
 3. **Create .env file:**
    Inside the client and server directories create `.env` and set:
